@@ -1,0 +1,15 @@
+<form class="form" (ngSubmit)="onSubmit()" #addForm="ngForm">
+  <input
+    type="text"
+    name="title"
+    [(ngModel)]="title"
+    placeholder="Todo title"
+    required
+  />
+  <input
+    type="submit"
+    value="SUBMIT"
+    class="button"
+    [disabled]="!addForm.form.valid"
+  />
+</form>

@@ -1,0 +1,22 @@
+.delete {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background-color: red;
+  cursor: pointer;
+  float: right;
+}
+
+.todo {
+  background-color: bisque;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.isCompleted {
+  text-decoration: line-through;
+}
